@@ -42,9 +42,9 @@ body,html{
     position: relative;
 }
 .right_hero{
-    width: 60%;
+    width: 70%;
     height: 220px;
-    margin: 250px 350px auto auto;
+    margin: 250px 20% auto auto;
     background-color: rgb(47, 47, 108);
     position: relative;
 }
