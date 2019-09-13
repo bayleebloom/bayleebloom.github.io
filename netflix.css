@@ -1,0 +1,104 @@
+body,html{
+    padding: 0;
+    margin: 0;
+    display: grid;
+    background-color: white;
+}
+.menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(255, 165, 100);
+    position: fixed;
+    z-index: 100;
+}
+.left{
+    width: 70%;
+    height: 30px;
+    margin: 30px auto auto 30px;
+    background-color: rgb(1, 199, 161);
+    position: relative;
+}
+.right{
+    width: 30%;
+    height: 30px;
+    margin: 30px 30px auto auto;
+    background-color: rgb(255, 186, 239);
+    position: relative;
+}
+.hero{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(255, 186, 239);
+}
+.left_title{
+    width: 40%;
+    height: 150px;
+    background-color: rgb(255, 165, 100);
+    margin: 200px auto auto 30px;
+}
+.left_button{
+    width: 40%;
+    height: 30px;
+    background-color: rgb(1, 199, 161);
+    margin: 10px auto auto 30px;
+}
+.main{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(255, 186, 239);
+}
+.genre{
+    width: 30%;
+    height: 30px;
+    background-color: rgb(1, 199, 161);
+    margin: 0px auto auto 30px;
+}
+.movie{
+    width: 97%;
+    height: 140px;
+    background-color: rgb(255, 165, 100);
+    margin: 5px 0px 30px 30px;
+}
+.break{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(1, 199, 161);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.image{
+    width: 110%;
+    height: 400px;
+    background-color: rgb(255, 186, 239);
+    margin: 50px 0px auto 30px;
+}
+.name{
+    width: 80%;
+    height: 300px;
+    background-color: rgb(255, 165, 100);
+    margin: auto 15px 50px auto;
+}
+.main_2{
+    width: 100%;
+    height: 800px;
+    background-color: rgb(255, 186, 239);
+}
+.footer{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(255, 165, 100);
+}
+.bottom{
+    width: 60%;
+    height: 150px;
+    background-color: rgb(1, 199, 161);
+    margin: 0px auto 0px auto;
+}
+.title_bottom{
+    width: 20%;
+    height: 50px;
+    background-color: rgb(255, 186, 239);
+    margin: 175px auto 0px 20%;
+}
