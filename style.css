@@ -1,40 +1,936 @@
+/*Desktop*/
+
+@media only screen and (min-width: 1280px) and (max-width: 3000px){
 body{
     font-family: ariana-pro, sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: white;
+    color: rgb(77, 77, 77);
     background-color: rgb(223, 209, 200);
 }
 .header{
-    height: 170px;
+    height: 160px;
     width: 100%;
-    background-color: green;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     position: relative;
 }
 .logo{
-    height: 160px;
-    width: 70%;
+    height: 220px;
+    width: 80%;
+    margin-left: -25px;
 }
 .name{
+    height: 140px;
     font-size: 60px;
     text-align: center;
     margin: auto 0px 10px auto;
 }
 .about{
+    height: 90px;
     font-size: 20px;
     text-align: right;
     margin: auto 30px 15px auto;
 }
 .line{
     height: 5px;
-    width: 100%;
+    width: 85%;
+    margin-left: 15%;
     background-color: rgb(77, 77, 77);
 }
-.hero{
-    height: 200px;
+.header_1{
+    height: 60px;
+    width: 99%;
+    color: rgb(77, 77, 77);
+    margin-top: 80px;
+    font-size: 40px;
+    padding-left: 20px;
+    border-bottom: 3px solid rgb(77, 77, 77);
+}
+.hero_1{
+    height: 400px;
     width: 100%;
-    background-color: red;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.c1_1{
+    background-image: url("/img/tie_7.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    width: 98%;
+}
+.c2_1{
+    background-image: url("/img/new_player_card.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    width: 98%;
+    margin-left: 15px;
+}
+.header_2{
+    height: 60px;
+    width: 99%;
+    color: rgb(77, 77, 77);
+    margin-top: 40px;
+    font-size: 40px;
+    padding-left: 20px;
+    border-bottom: 3px solid rgb(77, 77, 77);
+}
+.hero_2{
+    height: 400px;
+    width: 100%;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.c1_2{
+    background-image: url("/img/Shoe_Baylee_Bloom1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 98%;
+}
+.c2_2{
+    background-image: url("/img/cube2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 98%;
+    margin-left: 15px;
+}
+.hero_3{
+    height: 400px;
+    width: 100%;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.c1_3{
+    background-image: url("/img/IMG_6249.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 98%;
+}
+.c2_3{
+    background-image: url("/img/IMG_6252.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 98%;
+    margin-left: 15px;
+}
+.header_3{
+    height: 60px;
+    width: 99%;
+    color: rgb(77, 77, 77);
+    margin-top: 40px;
+    font-size: 40px;
+    padding-left: 20px;
+    border-bottom: 3px solid rgb(77, 77, 77);
+}
+.hero_4{
+    height: 400px;
+    width: 100%;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.c1_4{
+    background-image: url("/img/sheet.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 98%;
+}
+.c2_4{
+    background-image: url("/img/chair.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 98%;
+    margin-left: 15px;
+}
+.header_4{
+    height: 60px;
+    width: 99%;
+    color: rgb(77, 77, 77);
+    margin-top: 40px;
+    font-size: 40px;
+    padding-left: 20px;
+    border-bottom: 3px solid rgb(77, 77, 77);
+}
+.hero_5{
+    height: 400px;
+    width: 100%;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.c1_5{
+    background-image: url("/img/Screen\ Shot\ 2019-11-06\ at\ 9.36.00\ AM.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 98%;
+}
+.c2_5{
+    background-image: url("/img/Screen\ Shot\ 2019-11-06\ at\ 9.36.53\ AM.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 98%;
+    margin-left: 15px;
+}
+.hero_6{
+    height: 400px;
+    width: 100%;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.c1_6{
+    background-image: url("/img/Screen\ Shot\ 2019-11-06\ at\ 9.37.52\ AM.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 98%;
+}
+.c2_6{
+    background-image: url("/img/Screen\ Shot\ 2019-11-06\ at\ 9.38.14\ AM.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 98%;
+    margin-left: 15px;
+}
+.header_5{
+    height: 60px;
+    width: 99%;
+    color: rgb(77, 77, 77);
+    margin-top: 40px;
+    font-size: 40px;
+    padding-left: 20px;
+    border-bottom: 3px solid rgb(77, 77, 77);
+}
+.hero_7{
+    height: 400px;
+    width: 100%;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.c1_7{
+    background-image: url("/img/Powerlifting\ Shirt2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 98%;
+}
+.c2_7{
+    background-image: url("/img/Riverfest\ Name.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    width: 98%;
+    margin-left: 15px;
+}
+.hero_8{
+    height: 400px;
+    width: 100%;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.c1_8{
+    background-image: url("/img/swimming\ front.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 98%;
+}
+.c2_8{
+    background-image: url("/img/IMG_8735.JPG");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 98%;
+    margin-left: 15px;
+}
+.header_6{
+    height: 60px;
+    width: 99%;
+    color: rgb(77, 77, 77);
+    margin-top: 40px;
+    font-size: 40px;
+    padding-left: 20px;
+    border-bottom: 3px solid rgb(77, 77, 77);
+}
+.hero_9{
+    height: 400px;
+    width: 100%;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.c1_9{
+    background-image: url("/img/spirit_sign.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 98%;
+}
+.c2_9{
+    background-image: url("/img/Screen\ Shot\ 2019-11-06\ at\ 9.31.35\ AM.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 98%;
+    margin-left: 15px;
+}
+.footer{
+    height: 70px;
+    width: 100%;
+    border-top: 5px solid rgb(77, 77, 77);
+    margin-top: 50px;
+}
+}
+/*Tablets*/
+
+@media only screen and (min-width: 800px) and (max-width: 1280px){
+body{
+    font-family: ariana-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(77, 77, 77);
+    background-color: rgb(223, 209, 200)
+}
+.header{
+    height: 140px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    position: relative;
+}
+.logo{
+    height: 190px;
+    width: 80%;
+    margin-left: -20px;
+}
+.name{
+    height: 140px;
+    font-size: 50px;
+    text-align: center;
+    margin: auto 0px 10px auto;
+}
+.about{
+    height: 90px;
+    font-size: 20px;
+    text-align: right;
+    margin: auto 30px 15px auto;
+}
+.line{
+    height: 5px;
+    width: 85%;
+    margin-left: 15%;
+    background-color: rgb(77, 77, 77);
+}
+.header_1{
+    height: 60px;
+    width: 98%;
+    color: rgb(77, 77, 77);
+    margin-top: 40px;
+    font-size: 40px;
+    padding-left: 20px;
+    border-bottom: 3px solid rgb(77, 77, 77);
+}
+.hero_1{
+    height: 400px;
+    width: 100%;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.c1_1{
+    background-image: url("/img/tie_7.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    width: 98%;
+}
+.c2_1{
+    background-image: url("/img/new_player_card.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    width: 98%;
+    margin-left: 15px;
+}
+.header_2{
+    height: 60px;
+    width: 99%;
+    color: rgb(77, 77, 77);
+    margin-top: 40px;
+    font-size: 40px;
+    padding-left: 20px;
+    border-bottom: 3px solid rgb(77, 77, 77);
+}
+.hero_2{
+    height: 400px;
+    width: 100%;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.c1_2{
+    background-image: url("/img/Shoe_Baylee_Bloom1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 98%;
+}
+.c2_2{
+    background-image: url("/img/cube2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 98%;
+    margin-left: 15px;
+}
+.hero_3{
+    height: 400px;
+    width: 100%;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.c1_3{
+    background-image: url("/img/IMG_6249.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 98%;
+}
+.c2_3{
+    background-image: url("/img/IMG_6252.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 98%;
+    margin-left: 15px;
+}
+.header_3{
+    height: 60px;
+    width: 99%;
+    color: rgb(77, 77, 77);
+    margin-top: 40px;
+    font-size: 40px;
+    padding-left: 20px;
+    border-bottom: 3px solid rgb(77, 77, 77);
+}
+.hero_4{
+    height: 400px;
+    width: 100%;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.c1_4{
+    background-image: url("/img/sheet.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 98%;
+}
+.c2_4{
+    background-image: url("/img/chair.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 98%;
+    margin-left: 15px;
+}
+.header_4{
+    height: 60px;
+    width: 99%;
+    color: rgb(77, 77, 77);
+    margin-top: 40px;
+    font-size: 40px;
+    padding-left: 20px;
+    border-bottom: 3px solid rgb(77, 77, 77);
+}
+.hero_5{
+    height: 400px;
+    width: 100%;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.c1_5{
+    background-image: url("/img/Screen\ Shot\ 2019-11-06\ at\ 9.36.00\ AM.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 98%;
+}
+.c2_5{
+    background-image: url("/img/Screen\ Shot\ 2019-11-06\ at\ 9.36.53\ AM.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 98%;
+    margin-left: 15px;
+}
+.hero_6{
+    height: 400px;
+    width: 100%;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.c1_6{
+    background-image: url("/img/Screen\ Shot\ 2019-11-06\ at\ 9.37.52\ AM.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 98%;
+}
+.c2_6{
+    background-image: url("/img/Screen\ Shot\ 2019-11-06\ at\ 9.38.14\ AM.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 98%;
+    margin-left: 15px;
+}
+.header_5{
+    height: 60px;
+    width: 99%;
+    color: rgb(77, 77, 77);
+    margin-top: 40px;
+    font-size: 40px;
+    padding-left: 20px;
+    border-bottom: 3px solid rgb(77, 77, 77);
+}
+.hero_7{
+    height: 400px;
+    width: 100%;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.c1_7{
+    background-image: url("/img/Powerlifting\ Shirt2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 98%;
+}
+.c2_7{
+    background-image: url("/img/Riverfest\ Name.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    width: 98%;
+    margin-left: 15px;
+}
+.hero_8{
+    height: 400px;
+    width: 100%;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.c1_8{
+    background-image: url("/img/swimming\ front.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 98%;
+}
+.c2_8{
+    background-image: url("/img/IMG_8735.JPG");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 98%;
+    margin-left: 15px;
+}
+.header_6{
+    height: 60px;
+    width: 99%;
+    color: rgb(77, 77, 77);
+    margin-top: 40px;
+    font-size: 40px;
+    padding-left: 20px;
+    border-bottom: 3px solid rgb(77, 77, 77);
+}
+.hero_9{
+    height: 400px;
+    width: 100%;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.c1_9{
+    background-image: url("/img/spirit_sign.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 98%;
+}
+.c2_9{
+    background-image: url("/img/Screen\ Shot\ 2019-11-06\ at\ 9.31.35\ AM.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 98%;
+    margin-left: 15px;
+}
+.footer{
+    height: 70px;
+    width: 100%;
+    border-top: 5px solid rgb(77, 77, 77);
+    margin-top: 50px;
+}
+}
+/*Smart Phones*/
+    
+@media only screen and (max-width: 800px){
+body{
+    font-family: ariana-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(77, 77, 77);
+    background-color: rgb(223, 209, 200);
+}
+.header{
+    height: 90px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    position: relative;
+}
+.logo{
+    height: 130px;
+    width: 85%;
+    margin-left: -20px;
+}
+.name{
+    height: 90px;
+    font-size: 30px;
+    text-align: center;
+    margin: auto 0px 10px auto;
+}
+.about{
+    height: 70px;
+    font-size: 15px;
+    text-align: right;
+    margin: auto 30px 15px auto;
+}
+.line{
+    height: 5px;
+    width: 85%;
+    margin-left: 15%;
+    background-color: rgb(77, 77, 77);
+}
+.header_1{
+    height: 30px;
+    width: 98%;
+    color: rgb(77, 77, 77);
+    margin-top: 40px;
+    font-size: 20px;
+    padding-left: 20px;
+    border-bottom: 3px solid rgb(77, 77, 77);
+}
+.hero_1{
+    height: 700px;
+    width: 100%;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.c1_1{
+    background-image: url("/img/tie_7.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    width: 80%;
+    margin: 0px auto 0px auto;
+}
+.c2_1{
+    background-image: url("/img/new_player_card.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    width: 80%;
+    margin: 20px auto 0px auto;
+}
+.header_2{
+    height: 30px;
+    width: 98%;
+    color: rgb(77, 77, 77);
+    margin-top: 40px;
+    font-size: 20px;
+    padding-left: 20px;
+    border-bottom: 3px solid rgb(77, 77, 77);
+}
+.hero_2{
+    height: 700px;
+    width: 100%;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.c1_2{
+    background-image: url("/img/Shoe_Baylee_Bloom1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 80%;
+    margin: 0px auto 0px auto;
+}
+.c2_2{
+    background-image: url("/img/cube2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 80%;
+    margin: 20px auto 0px auto;
+}
+.hero_3{
+    height: 700px;
+    width: 100%;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.c1_3{
+    background-image: url("/img/IMG_6249.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 80%;
+    margin: 0px auto 0px auto;
+}
+.c2_3{
+    background-image: url("/img/IMG_6252.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 80%;
+    margin: 20px auto 0px auto;
+}
+.header_3{
+    height: 30px;
+    width: 98%;
+    color: rgb(77, 77, 77);
+    margin-top: 40px;
+    font-size: 20px;
+    padding-left: 20px;
+    border-bottom: 3px solid rgb(77, 77, 77);
+}
+.hero_4{
+    height: 700px;
+    width: 100%;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.c1_4{
+    background-image: url("/img/sheet.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 80%;
+    margin: 0px auto 0px auto;
+}
+.c2_4{
+    background-image: url("/img/chair.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 80%;
+    margin: 20px auto 0px auto;
+}
+.header_4{
+    height: 30px;
+    width: 98%;
+    color: rgb(77, 77, 77);
+    margin-top: 40px;
+    font-size: 20px;
+    padding-left: 20px;
+    border-bottom: 3px solid rgb(77, 77, 77);
+}
+.hero_5{
+    height: 700px;
+    width: 100%;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.c1_5{
+    background-image: url("/img/Screen\ Shot\ 2019-11-06\ at\ 9.36.00\ AM.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 80%;
+    margin: 0px auto 0px auto;
+}
+.c2_5{
+    background-image: url("/img/Screen\ Shot\ 2019-11-06\ at\ 9.36.53\ AM.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 80%;
+    margin: 20px auto 0px auto;
+}
+.hero_6{
+    height: 700px;
+    width: 100%;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.c1_6{
+    background-image: url("/img/Screen\ Shot\ 2019-11-06\ at\ 9.37.52\ AM.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 80%;
+    margin: 0px auto 0px auto;
+}
+.c2_6{
+    background-image: url("/img/Screen\ Shot\ 2019-11-06\ at\ 9.38.14\ AM.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 80%;
+    margin: 20px auto 0px auto;
+}
+.header_5{
+    height: 30px;
+    width: 98%;
+    color: rgb(77, 77, 77);
+    margin-top: 40px;
+    font-size: 20px;
+    padding-left: 20px;
+    border-bottom: 3px solid rgb(77, 77, 77);
+}
+.hero_7{
+    height: 700px;
+    width: 100%;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.c1_7{
+    background-image: url("/img/Powerlifting\ Shirt2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 80%;
+    margin: 0px auto 0px auto;
+}
+.c2_7{
+    background-image: url("/img/Riverfest\ Name.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    width: 80%;
+    margin: 20px auto 0px auto;
+}
+.hero_8{
+    height: 700px;
+    width: 100%;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.c1_8{
+    background-image: url("/img/swimming\ front.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 80%;
+    margin: 0px auto 0px auto;
+}
+.c2_8{
+    background-image: url("/img/IMG_8735.JPG");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 80%;
+    margin: 20px auto 0px auto;
+}
+.header_6{
+    height: 30px;
+    width: 98%;
+    color: rgb(77, 77, 77);
+    margin-top: 40px;
+    font-size: 20px;
+    padding-left: 20px;
+    border-bottom: 3px solid rgb(77, 77, 77);
+}
+.hero_9{
+    height: 700px;
+    width: 100%;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.c1_9{
+    background-image: url("/img/spirit_sign.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 80%;
+    margin: 0px auto 0px auto;
+}
+.c2_9{
+    background-image: url("/img/Screen\ Shot\ 2019-11-06\ at\ 9.31.35\ AM.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 80%;
+    margin: 20px auto 0px auto;
+}
+.footer{
+    height: 70px;
+    width: 100%;
+    border-top: 5px solid rgb(77, 77, 77);
+    margin-top: 50px;
+}
 }
