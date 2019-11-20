@@ -934,3 +934,65 @@ body{
     margin-top: 50px;
 }
 }
+
+/*Single page */
+/*Single page */
+/*Single page */
+/*Single page */
+/*Single page */
+/*Single page */
+
+/*Desktop*/
+
+@media only screen and (min-width: 1280px) and (max-width: 3000px){
+body{
+    font-family: ariana-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(226, 182, 153);
+    background-color: rgb(223, 209, 200);
+}
+.header{
+    height: 160px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    position: relative;
+    z-index: 100;
+}
+.logo{
+    height: 220px;
+    width: 80%;
+    margin-left: -25px;
+}
+.name{
+    height: 140px;
+    font-size: 60px;
+    text-align: center;
+    margin: auto 0px 10px auto;
+}
+.about{
+    height: 90px;
+    font-size: 20px;
+    text-align: right;
+    margin: auto 30px 15px auto;
+}
+.line{
+    height: 5px;
+    width: 85%;
+    margin-left: 15%;
+    background-color: rgb(223, 209, 200);
+    z-index: 90;
+}
+.pic{
+    height: 800px;
+    width: 100%;
+    margin: -180px auto 0px auto;
+    background-image: url("img/cube2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    z-index: 0;
+}
