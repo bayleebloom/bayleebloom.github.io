@@ -26,12 +26,14 @@ body{
     font-size: 60px;
     text-align: center;
     margin: auto 0px 10px auto;
+    color: rgb(77, 77, 77);
 }
 .about{
     height: 90px;
     font-size: 20px;
     text-align: right;
     margin: auto 30px 15px auto;
+    color: rgb(77, 77, 77);
 }
 .line{
     height: 5px;
@@ -63,6 +65,19 @@ body{
     background-size: cover;
     width: 98%;
 }
+.caption{
+    display: none;
+}
+.c1_1:hover{
+    filter: opacity(40%);
+}
+.c1_1:hover .caption{
+    display: block;
+    font-size: 100px;
+    color: black;
+    text-align: center;
+    margin-top: 100px;
+}
 .c2_1{
     background-image: url("/img/new_player_card.jpg");
     background-repeat: no-repeat;
@@ -70,6 +85,16 @@ body{
     background-size: cover;
     width: 98%;
     margin-left: 15px;
+}
+.c2_1:hover{
+    filter: opacity(40%);
+}
+.c2_1:hover .caption{
+    display: block;
+    font-size: 100px;
+    color: black;
+    text-align: center;
+    margin-top: 100px;
 }
 .header_2{
     height: 60px;
@@ -95,6 +120,16 @@ body{
     background-size: cover;
     width: 98%;
 }
+.c1_2:hover{
+    filter: opacity(40%);
+}
+.c1_2:hover .caption{
+    display: block;
+    font-size: 100px;
+    color: black;
+    text-align: center;
+    margin-top: 100px;
+}
 .c2_2{
     background-image: url("/img/cube2.jpg");
     background-repeat: no-repeat;
@@ -102,6 +137,15 @@ body{
     background-size: cover;
     width: 98%;
     margin-left: 15px;
+}
+.c2_2:hover{
+}
+.c2_2:hover .caption{
+    display: block;
+    font-size: 80px;
+    color: black;
+    height: 100%;
+    background-color: rgba(0, 0, 255, .5);
 }
 .hero_3{
     height: 400px;
@@ -952,47 +996,130 @@ body{
     color: rgb(226, 182, 153);
     background-color: rgb(223, 209, 200);
 }
-.header{
-    height: 160px;
+.header_s{
+    height: 900px;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    position: relative;
-    z-index: 100;
-}
-.logo{
-    height: 220px;
-    width: 80%;
-    margin-left: -25px;
-}
-.name{
-    height: 140px;
-    font-size: 60px;
-    text-align: center;
-    margin: auto 0px 10px auto;
-}
-.about{
-    height: 90px;
-    font-size: 20px;
-    text-align: right;
-    margin: auto 30px 15px auto;
-}
-.line{
-    height: 5px;
-    width: 85%;
-    margin-left: 15%;
-    background-color: rgb(223, 209, 200);
-    z-index: 90;
-}
-.pic{
-    height: 800px;
-    width: 100%;
-    margin: -180px auto 0px auto;
+    grid-template-rows: 1fr 1fr;
     background-image: url("img/cube2.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+.logo_s{
+    height: 270px;
+    width: 80%;
+    margin-left: -35px;
+}
+.name_s{
+    height: 140px;
+    font-size: 60px;
+    text-align: center;
+    margin: 90px auto 0px auto;
+}
+.about_s{
+    height: 90px;
+    font-size: 20px;
+    text-align: right;
+    margin: 140px 80px 0px auto;
+}
+.line_s{
+    height: 5px;
+    width: 82%;
+    margin-top: 200px;
+    background-color: rgb(223, 209, 200);
     position: absolute;
-    z-index: 0;
+    margin-left: 340px;
+}
+.title{
+    height: 90px;
+    width: 100%;
+    font-size: 140px;
+    color: rgb(77, 77, 77);
+    margin: 30px auto 0px 30px;
+}
+.title_2{
+    height: 180px;
+    width: 100%;
+    font-size: 140px;
+    color: rgb(77, 77, 77);
+    margin: 50px auto 0px 30px;
+}
+.info{
+    height: 850px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.date{
+    font-size: 90px;
+    color: rgb(77, 77, 77);
+    margin: 0px auto 0px 40px;
+}
+.text{
+    font-size: 50px;
+    color: rgb(77, 77, 77);
+    margin: 0px 40px 0px -150px;
+}
+.pic_2{
+    height: 1200px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.detail{
+    background-image: url("img/cube.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 98%;
+}
+.detail_2{
+    background-image: url("img/cube3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.footer_s{
+    height: 600px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    color: rgb(223, 209, 200);
+    background-color: rgb(77, 77, 77);
+    margin-top: 30px;
+}
+.projects{
+    font-size: 30px;
+    margin: 80px auto 0px 40px;
+}
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-left: 40px;
+    width: 100%;
+    height: 100px;
+}
+.big{
+    font-size: 80px;
+    width: 120%;
+}
+.little{
+    margin-top: 70px;
+    width: 30%;
+}
+.big_2{
+    font-size: 80px;
+    width: 100%;
+    margin-left: -200px;
+}
+.little_2{
+    margin-top: 70px;
+    width: 30%;
+    margin-left: -150px;
 }
