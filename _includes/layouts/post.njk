@@ -1,0 +1,34 @@
+---
+layout: layouts/base.njk
+templateClass: tmpl-post
+---
+
+<div class="work__featured_image">
+        <img src="{{ featured_image | url }}" />
+</div>
+<div class="title">
+            {{ title | upper }}
+</div>
+<div class="title_2">
+            {{ title_2 | upper }}
+</div>
+<div class="info">
+    <div class="date">
+        -{{ year }}
+    </div>
+    <div class="text">
+        {{ description }}
+    </div>
+</div>
+<div class="pic_2">
+    <div class="detail">
+        {% for image in support_images %}
+            <img src="{{ image | url }}">
+        {% endfor %}
+    </div>
+    <div class="detail_2">
+        {% for image in support_images_2 %}
+            <img src="{{ image | url }}">
+        {% endfor %}
+    </div>
+</div>
