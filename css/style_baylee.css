@@ -1190,11 +1190,9 @@ body{
     margin: 0px 40px 0px -150px;
 }
 .pic_2{
-    height: 1200px;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
 }
 .detail{
     background-image: url("img/cube.jpg");

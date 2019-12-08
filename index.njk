@@ -3,9 +3,14 @@ layout: layouts/base.njk
 ---
 
 <div class="work__title">
-    INDEX
+    product design
 </div>
+{% set postslist = collections["product design"] %}
+{% include "partials/homelist.njk" %}
 
 
-{% set postslist = collections.work %}
-{% include "partials/postlist.njk" %}
+<div class="work__title">
+    sculpture
+</div>
+{% set postslist = collections.sculpture %}
+{% include "partials/homelist.njk" %}

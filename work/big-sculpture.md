@@ -3,7 +3,7 @@ layout: layouts/post.njk
 tags:
  - work
  - "2018"
- - Sculpture
+ - sculpture
 title: TRANSFORMATION
 title_2: CUBE
 type: Sculpture

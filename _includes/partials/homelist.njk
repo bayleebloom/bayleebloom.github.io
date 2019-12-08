@@ -1,0 +1,12 @@
+
+<div class="hero_1">
+    {% for post in postslist %}
+        <div class="c1_1" style="background-image: url('{{ post.data.featured_image }}'); ">
+            <p class="caption">
+                <a href="{{ post.url }}">
+                    {{ post.data.title | upper }}
+                </a>
+            </p>
+        </div>
+    {% endfor %}
+</div>

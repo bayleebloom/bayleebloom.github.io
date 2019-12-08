@@ -10,10 +10,13 @@ img{
 
 a{
     text-decoration: none;
-    color: black;
+    color: rgb(223, 209, 200);
+    padding-left: 50px;
+    line-height: 10px;
+    font-size: 50px;
 }
 a:hover{
-    color: yellow;
+    color: rgb(226, 182, 153);
 }
 
 
@@ -42,8 +45,6 @@ a:hover{
 
 .footer{
     height: 20px;
-    background-color: magenta;
-    padding: 20px;
 }
 
 .footer p{
