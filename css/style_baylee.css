@@ -1,6 +1,5 @@
 /*Desktop*/
 
-@media only screen and (min-width: 1280px) and (max-width: 3000px){
 body{
     font-family: ariana-pro, sans-serif;
     font-weight: 400;
@@ -476,7 +475,7 @@ p.caption{
     border-top: 5px solid rgb(77, 77, 77);
     margin-top: 50px;
 }
-}
+
 /*Tablets*/
 
 @media only screen and (min-width: 800px) and (max-width: 1280px){
@@ -542,6 +541,15 @@ body{
     background-size: cover;
     width: 98%;
 }
+.c1_1:hover .caption{
+    display: block;
+    font-size: 60px;
+    color: black;
+    height: 70%;
+    background-color: rgba(255, 255, 255, .6);
+    text-align: center;
+    padding-top: 120px;
+}
 .c2_1{
     background-image: url("/img/new_player_card.jpg");
     background-repeat: no-repeat;
@@ -549,6 +557,15 @@ body{
     background-size: cover;
     width: 98%;
     margin-left: 15px;
+}
+.c2_1:hover .caption{
+    display: block;
+    font-size: 80px;
+    color: black;
+    height: 70%;
+    background-color: rgba(255, 255, 255, .6);
+    text-align: center;
+    padding-top: 120px;
 }
 .header_2{
     height: 60px;
@@ -574,6 +591,15 @@ body{
     background-size: cover;
     width: 98%;
 }
+.c1_2:hover .caption{
+    display: block;
+    font-size: 60px;
+    color: black;
+    height: 70%;
+    background-color: rgba(255, 255, 255, .6);
+    text-align: center;
+    padding-top: 120px;
+}
 .c2_2{
     background-image: url("/img/cube2.jpg");
     background-repeat: no-repeat;
@@ -581,6 +607,15 @@ body{
     background-size: cover;
     width: 98%;
     margin-left: 15px;
+}
+.c2_2:hover .caption{
+    display: block;
+    font-size: 60px;
+    color: black;
+    height: 70%;
+    background-color: rgba(255, 255, 255, .6);
+    text-align: center;
+    padding-top: 120px;
 }
 .hero_3{
     height: 400px;
@@ -597,6 +632,15 @@ body{
     background-size: cover;
     width: 98%;
 }
+.c1_3:hover .caption{
+    display: block;
+    font-size: 60px;
+    color: black;
+    height: 70%;
+    background-color: rgba(255, 255, 255, .6);
+    text-align: center;
+    padding-top: 120px;
+}
 .c2_3{
     background-image: url("/img/IMG_6252.jpg");
     background-repeat: no-repeat;
@@ -604,6 +648,15 @@ body{
     background-size: cover;
     width: 98%;
     margin-left: 15px;
+}
+.c2_3:hover .caption{
+    display: block;
+    font-size: 60px;
+    color: black;
+    height: 70%;
+    background-color: rgba(255, 255, 255, .6);
+    text-align: center;
+    padding-top: 120px;
 }
 .header_3{
     height: 60px;
@@ -629,6 +682,15 @@ body{
     background-size: cover;
     width: 98%;
 }
+.c1_4:hover .caption{
+    display: block;
+    font-size: 60px;
+    color: black;
+    height: 70%;
+    background-color: rgba(255, 255, 255, .6);
+    text-align: center;
+    padding-top: 120px;
+}
 .c2_4{
     background-image: url("/img/chair.jpg");
     background-repeat: no-repeat;
@@ -636,6 +698,15 @@ body{
     background-size: cover;
     width: 98%;
     margin-left: 15px;
+}
+.c2_4:hover .caption{
+    display: block;
+    font-size: 60px;
+    color: black;
+    height: 70%;
+    background-color: rgba(255, 255, 255, .6);
+    text-align: center;
+    padding-top: 120px;
 }
 .header_4{
     height: 60px;
@@ -661,6 +732,15 @@ body{
     background-size: cover;
     width: 98%;
 }
+.c1_5:hover .caption{
+    display: block;
+    font-size: 60px;
+    color: black;
+    height: 70%;
+    background-color: rgba(255, 255, 255, .6);
+    text-align: center;
+    padding-top: 120px;
+}
 .c2_5{
     background-image: url("/img/Screen\ Shot\ 2019-11-06\ at\ 9.36.53\ AM.png");
     background-repeat: no-repeat;
@@ -668,6 +748,15 @@ body{
     background-size: cover;
     width: 98%;
     margin-left: 15px;
+}
+.c2_5:hover .caption{
+    display: block;
+    font-size: 60px;
+    color: black;
+    height: 70%;
+    background-color: rgba(255, 255, 255, .6);
+    text-align: center;
+    padding-top: 120px;
 }
 .hero_6{
     height: 400px;
@@ -684,6 +773,15 @@ body{
     background-size: cover;
     width: 98%;
 }
+.c1_6:hover .caption{
+    display: block;
+    font-size: 60px;
+    color: black;
+    height: 70%;
+    background-color: rgba(255, 255, 255, .6);
+    text-align: center;
+    padding-top: 120px;
+}
 .c2_6{
     background-image: url("/img/Screen\ Shot\ 2019-11-06\ at\ 9.38.14\ AM.png");
     background-repeat: no-repeat;
@@ -691,6 +789,15 @@ body{
     background-size: cover;
     width: 98%;
     margin-left: 15px;
+}
+.c2_6:hover .caption{
+    display: block;
+    font-size: 60px;
+    color: black;
+    height: 70%;
+    background-color: rgba(255, 255, 255, .6);
+    text-align: center;
+    padding-top: 120px;
 }
 .header_5{
     height: 60px;
@@ -716,6 +823,15 @@ body{
     background-size: cover;
     width: 98%;
 }
+.c1_7:hover .caption{
+    display: block;
+    font-size: 60px;
+    color: black;
+    height: 70%;
+    background-color: rgba(255, 255, 255, .6);
+    text-align: center;
+    padding-top: 120px;
+}
 .c2_7{
     background-image: url("/img/Riverfest\ Name.jpg");
     background-repeat: no-repeat;
@@ -723,6 +839,15 @@ body{
     background-size: cover;
     width: 98%;
     margin-left: 15px;
+}
+.c2_7:hover .caption{
+    display: block;
+    font-size: 60px;
+    color: black;
+    height: 70%;
+    background-color: rgba(255, 255, 255, .6);
+    text-align: center;
+    padding-top: 120px;
 }
 .hero_8{
     height: 400px;
@@ -739,6 +864,15 @@ body{
     background-size: cover;
     width: 98%;
 }
+.c1_8:hover .caption{
+    display: block;
+    font-size: 60px;
+    color: black;
+    height: 70%;
+    background-color: rgba(255, 255, 255, .6);
+    text-align: center;
+    padding-top: 120px;
+}
 .c2_8{
     background-image: url("/img/IMG_8735.JPG");
     background-repeat: no-repeat;
@@ -746,6 +880,15 @@ body{
     background-size: cover;
     width: 98%;
     margin-left: 15px;
+}
+.c2_8:hover .caption{
+    display: block;
+    font-size: 60px;
+    color: black;
+    height: 70%;
+    background-color: rgba(255, 255, 255, .6);
+    text-align: center;
+    padding-top: 120px;
 }
 .header_6{
     height: 60px;
@@ -771,6 +914,15 @@ body{
     background-size: cover;
     width: 98%;
 }
+.c1_9:hover .caption{
+    display: block;
+    font-size: 60px;
+    color: black;
+    height: 70%;
+    background-color: rgba(255, 255, 255, .6);
+    text-align: center;
+    padding-top: 120px;
+}
 .c2_9{
     background-image: url("/img/Screen\ Shot\ 2019-11-06\ at\ 9.31.35\ AM.png");
     background-repeat: no-repeat;
@@ -778,6 +930,15 @@ body{
     background-size: cover;
     width: 98%;
     margin-left: 15px;
+}
+.c2_9:hover .caption{
+    display: block;
+    font-size: 60px;
+    color: black;
+    height: 70%;
+    background-color: rgba(255, 255, 255, .6);
+    text-align: center;
+    padding-top: 120px;
 }
 .footer{
     height: 70px;
@@ -852,13 +1013,31 @@ body{
     width: 80%;
     margin: 0px auto 0px auto;
 }
+.c1_1:hover .caption{
+    display: block;
+    font-size: 50px;
+    color: black;
+    height: 66%;
+    background-color: rgba(255, 255, 255, .6);
+    text-align: center;
+    padding-top: 120px;
+}
 .c2_1{
     background-image: url("/img/new_player_card.jpg");
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
     width: 80%;
-    margin: 20px auto 0px auto;
+    margin: 40px auto 0px auto;
+}
+.c2_1:hover .caption{
+    display: block;
+    font-size: 50px;
+    color: black;
+    height: 66%;
+    background-color: rgba(255, 255, 255, .6);
+    text-align: center;
+    padding-top: 120px;
 }
 .header_2{
     height: 30px;
@@ -885,6 +1064,15 @@ body{
     width: 80%;
     margin: 0px auto 0px auto;
 }
+.c1_2:hover .caption{
+    display: block;
+    font-size: 50px;
+    color: black;
+    height: 66%;
+    background-color: rgba(255, 255, 255, .6);
+    text-align: center;
+    padding-top: 120px;
+}
 .c2_2{
     background-image: url("/img/cube2.jpg");
     background-repeat: no-repeat;
@@ -892,6 +1080,15 @@ body{
     background-size: cover;
     width: 80%;
     margin: 20px auto 0px auto;
+}
+.c2_2:hover .caption{
+    display: block;
+    font-size: 50px;
+    color: black;
+    height: 66%;
+    background-color: rgba(255, 255, 255, .6);
+    text-align: center;
+    padding-top: 120px;
 }
 .hero_3{
     height: 700px;
@@ -909,6 +1106,15 @@ body{
     width: 80%;
     margin: 0px auto 0px auto;
 }
+.c1_3:hover .caption{
+    display: block;
+    font-size: 50px;
+    color: black;
+    height: 66%;
+    background-color: rgba(255, 255, 255, .6);
+    text-align: center;
+    padding-top: 120px;
+}
 .c2_3{
     background-image: url("/img/IMG_6252.jpg");
     background-repeat: no-repeat;
@@ -916,6 +1122,15 @@ body{
     background-size: cover;
     width: 80%;
     margin: 20px auto 0px auto;
+}
+.c2_3:hover .caption{
+    display: block;
+    font-size: 50px;
+    color: black;
+    height: 66%;
+    background-color: rgba(255, 255, 255, .6);
+    text-align: center;
+    padding-top: 120px;
 }
 .header_3{
     height: 30px;
@@ -942,6 +1157,15 @@ body{
     width: 80%;
     margin: 0px auto 0px auto;
 }
+.c1_4:hover .caption{
+    display: block;
+    font-size: 50px;
+    color: black;
+    height: 66%;
+    background-color: rgba(255, 255, 255, .6);
+    text-align: center;
+    padding-top: 120px;
+}
 .c2_4{
     background-image: url("/img/chair.jpg");
     background-repeat: no-repeat;
@@ -949,6 +1173,15 @@ body{
     background-size: cover;
     width: 80%;
     margin: 20px auto 0px auto;
+}
+.c2_4:hover .caption{
+    display: block;
+    font-size: 50px;
+    color: black;
+    height: 66%;
+    background-color: rgba(255, 255, 255, .6);
+    text-align: center;
+    padding-top: 120px;
 }
 .header_4{
     height: 30px;
@@ -975,6 +1208,15 @@ body{
     width: 80%;
     margin: 0px auto 0px auto;
 }
+.c1_5:hover .caption{
+    display: block;
+    font-size: 50px;
+    color: black;
+    height: 66%;
+    background-color: rgba(255, 255, 255, .6);
+    text-align: center;
+    padding-top: 120px;
+}
 .c2_5{
     background-image: url("/img/Screen\ Shot\ 2019-11-06\ at\ 9.36.53\ AM.png");
     background-repeat: no-repeat;
@@ -982,6 +1224,15 @@ body{
     background-size: cover;
     width: 80%;
     margin: 20px auto 0px auto;
+}
+.c2_5:hover .caption{
+    display: block;
+    font-size: 50px;
+    color: black;
+    height: 66%;
+    background-color: rgba(255, 255, 255, .6);
+    text-align: center;
+    padding-top: 120px;
 }
 .hero_6{
     height: 700px;
@@ -999,6 +1250,15 @@ body{
     width: 80%;
     margin: 0px auto 0px auto;
 }
+.c1_6:hover .caption{
+    display: block;
+    font-size: 50px;
+    color: black;
+    height: 66%;
+    background-color: rgba(255, 255, 255, .6);
+    text-align: center;
+    padding-top: 120px;
+}
 .c2_6{
     background-image: url("/img/Screen\ Shot\ 2019-11-06\ at\ 9.38.14\ AM.png");
     background-repeat: no-repeat;
@@ -1006,6 +1266,15 @@ body{
     background-size: cover;
     width: 80%;
     margin: 20px auto 0px auto;
+}
+.c2_6:hover .caption{
+    display: block;
+    font-size: 50px;
+    color: black;
+    height: 66%;
+    background-color: rgba(255, 255, 255, .6);
+    text-align: center;
+    padding-top: 120px;
 }
 .header_5{
     height: 30px;
@@ -1032,6 +1301,15 @@ body{
     width: 80%;
     margin: 0px auto 0px auto;
 }
+.c1_7:hover .caption{
+    display: block;
+    font-size: 50px;
+    color: black;
+    height: 66%;
+    background-color: rgba(255, 255, 255, .6);
+    text-align: center;
+    padding-top: 120px;
+}
 .c2_7{
     background-image: url("/img/Riverfest\ Name.jpg");
     background-repeat: no-repeat;
@@ -1039,6 +1317,15 @@ body{
     background-size: cover;
     width: 80%;
     margin: 20px auto 0px auto;
+}
+.c2_7:hover .caption{
+    display: block;
+    font-size: 50px;
+    color: black;
+    height: 66%;
+    background-color: rgba(255, 255, 255, .6);
+    text-align: center;
+    padding-top: 120px;
 }
 .hero_8{
     height: 700px;
@@ -1056,6 +1343,15 @@ body{
     width: 80%;
     margin: 0px auto 0px auto;
 }
+.c1_8:hover .caption{
+    display: block;
+    font-size: 50px;
+    color: black;
+    height: 66%;
+    background-color: rgba(255, 255, 255, .6);
+    text-align: center;
+    padding-top: 120px;
+}
 .c2_8{
     background-image: url("/img/IMG_8735.JPG");
     background-repeat: no-repeat;
@@ -1063,6 +1359,15 @@ body{
     background-size: cover;
     width: 80%;
     margin: 20px auto 0px auto;
+}
+.c2_8:hover .caption{
+    display: block;
+    font-size: 50px;
+    color: black;
+    height: 66%;
+    background-color: rgba(255, 255, 255, .6);
+    text-align: center;
+    padding-top: 120px;
 }
 .header_6{
     height: 30px;
@@ -1089,6 +1394,15 @@ body{
     width: 80%;
     margin: 0px auto 0px auto;
 }
+.c1_9:hover .caption{
+    display: block;
+    font-size: 50px;
+    color: black;
+    height: 66%;
+    background-color: rgba(255, 255, 255, .6);
+    text-align: center;
+    padding-top: 120px;
+}
 .c2_9{
     background-image: url("/img/Screen\ Shot\ 2019-11-06\ at\ 9.31.35\ AM.png");
     background-repeat: no-repeat;
@@ -1096,6 +1410,15 @@ body{
     background-size: cover;
     width: 80%;
     margin: 20px auto 0px auto;
+}
+.c2_9:hover .caption{
+    display: block;
+    font-size: 50px;
+    color: black;
+    height: 66%;
+    background-color: rgba(255, 255, 255, .6);
+    text-align: center;
+    padding-top: 120px;
 }
 .footer{
     height: 70px;
@@ -1114,7 +1437,6 @@ body{
 
 /*Desktop*/
 
-@media only screen and (min-width: 1280px) and (max-width: 3000px){
 body{
     font-family: ariana-pro, sans-serif;
     font-weight: 400;
@@ -1123,7 +1445,7 @@ body{
     background-color: rgb(223, 209, 200);
 }
 .header_s{
-    height: 900px;
+    height: 200px;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -1154,7 +1476,7 @@ body{
     height: 5px;
     width: 82%;
     margin-top: 200px;
-    background-color: rgb(223, 209, 200);
+    background-color: rgb(226, 182, 153);
     position: absolute;
     margin-left: 340px;
 }
@@ -1247,7 +1569,6 @@ body{
     width: 30%;
     margin-left: -150px;
 }
-}
 
 /*Tablets*/
 
@@ -1260,7 +1581,7 @@ body{
     background-color: rgb(223, 209, 200);
 }
 .header_s{
-    height: 700px;
+    height: 100px;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -1273,7 +1594,7 @@ body{
 .logo_s{
     height: 200px;
     width: 85%;
-    margin-left: -12px;
+    margin-left: -20px;
 }
 .name_s{
     height: 140px;
@@ -1283,15 +1604,15 @@ body{
 }
 .about_s{
     height: 90px;
-    font-size: 15px;
+    font-size: 20px;
     text-align: right;
-    margin: 90px 30px 0px auto;
+    margin: 90px 40px 0px auto;
 }
 .line_s{
     height: 5px;
     width: 77%;
     margin-top: 140px;
-    background-color: rgb(223, 209, 200);
+    background-color: rgb(226, 182, 153);
     position: absolute;
     margin-left: 250px;
 }
@@ -1385,4 +1706,571 @@ body{
     margin-top: 70px;
     width: 30%;
     margin-left: -150px;
+}
+}
+
+/*Smart Phone*/
+@media only screen and (max-width: 800px){
+body{
+    font-family: ariana-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(226, 182, 153);
+    background-color: rgb(223, 209, 200);
+}
+.header_s{
+    height: 100px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-image: url("img/cube2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.logo_s{
+    height: 140px;
+    width: 85%;
+    margin-left: -10px;
+}
+.name_s{
+    height: 140px;
+    font-size: 30px;
+    text-align: center;
+    margin: 40px auto 0px auto;
+}
+.about_s{
+    height: 90px;
+    font-size: 20px;
+    text-align: right;
+    margin: 50px 40px 0px auto;
+}
+.line_s{
+    height: 4px;
+    width: 80%;
+    margin-top: 100px;
+    background-color: rgb(226, 182, 153);
+    position: absolute;
+    margin-left: 18%;
+}
+.title{
+    height: 90px;
+    width: 100%;
+    font-size: 100px;
+    color: rgb(77, 77, 77);
+    margin: 30px auto 0px 30px;
+}
+.title_2{
+    height: 180px;
+    width: 100%;
+    font-size: 100px;
+    color: rgb(77, 77, 77);
+    margin: 50px auto 0px 30px;
+}
+.info{
+    height: 850px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.date{
+    font-size: 90px;
+    color: rgb(77, 77, 77);
+    margin: 0px auto 0px 40px;
+}
+.text{
+    font-size: 50px;
+    color: rgb(77, 77, 77);
+    margin: 0px 40px 0px -150px;
+}
+.pic_2{
+    height: 1200px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.detail{
+    background-image: url("img/cube.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 98%;
+}
+.detail_2{
+    background-image: url("img/cube3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.footer_s{
+    height: 600px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    color: rgb(223, 209, 200);
+    background-color: rgb(77, 77, 77);
+    margin-top: 30px;
+}
+.projects{
+    font-size: 30px;
+    margin: 80px auto 0px 40px;
+}
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-left: 40px;
+    width: 100%;
+    height: 100px;
+}
+.big{
+    font-size: 80px;
+    width: 120%;
+}
+.little{
+    margin-top: 70px;
+    width: 30%;
+}
+.big_2{
+    font-size: 80px;
+    width: 100%;
+    margin-left: -200px;
+}
+.little_2{
+    margin-top: 70px;
+    width: 30%;
+    margin-left: -150px;
+}
+}
+
+
+/*about*/
+/*about*/
+/*about*/
+/*about*/
+/*about*/
+/*Desktop*/
+
+body{
+    font-family: ariana-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(226, 182, 153);
+    background-color: rgb(223, 209, 200);
+}
+.header_a{
+    height: 1000px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-image: url("/img/SeniorPic.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+.logo_a{
+    height: 270px;
+    width: 80%;
+    margin-left: -35px;
+}
+.name_a{
+    height: 140px;
+    font-size: 60px;
+    text-align: center;
+    margin: 60px auto 0px auto;
+}
+.about_a{
+    height: 90px;
+    font-size: 20px;
+    text-align: right;
+    margin: 110px 80px 0px auto;
+}
+.line_a{
+    height: 5px;
+    width: 82%;
+    margin-top: 160px;
+    background-color: rgb(223, 209, 200);
+    position: absolute;
+    margin-left: 340px;
+}
+.school{
+    height: 90px;
+    width: 100%;
+    font-size: 80px;
+    color: rgb(77, 77, 77);
+    margin: 120px auto 0px 30px;
+}
+.school_2{
+    height: 100px;
+    width: 100%;
+    font-size: 40px;
+    color: rgb(77, 77, 77);
+    margin: 20px auto 0px 30px;
+}
+.year{
+    height: 90px;
+    width: 100%;
+    font-size: 80px;
+    color: rgb(77, 77, 77);
+    margin: 20px auto 0px 30px;
+}
+.year_2{
+    height: 100px;
+    width: 100%;
+    font-size: 40px;
+    color: rgb(77, 77, 77);
+    margin: 20px auto 0px 30px;
+}
+.major{
+    height: 90px;
+    width: 100%;
+    font-size: 80px;
+    color: rgb(77, 77, 77);
+    margin: 20px auto 0px 30px;
+}
+.major_2{
+    height: 100px;
+    width: 100%;
+    font-size: 40px;
+    color: rgb(77, 77, 77);
+    margin: 20px auto 150px 30px;
+}
+.footer_a{
+    height: 600px;
+    width: 100%;
+    color: rgb(223, 209, 200);
+    background-color: rgb(77, 77, 77);
+    margin-top: 0px;
+}
+.contact{
+    font-size: 30px;
+    padding-top: 70px;
+    margin: 0px auto 0px 40px;
+}
+.email{
+    height: 60px;
+    font-size: 50px;
+    color: rgb(223, 209, 200);
+    margin: 60px 0px 0px 40px;
+}
+.insta{
+    height: 40px;
+    font-size: 30px;
+    color: rgb(223, 209, 200);
+    margin: 60px 0px 0px 40px;
+}
+.facebook{
+    height: 40px;
+    font-size: 30px;
+    color: rgb(223, 209, 200);
+    margin: 0px 0px 0px 40px;
+}
+.twitter{
+    height: 40px;
+    font-size: 30px;
+    color: rgb(223, 209, 200);
+    margin: 0px 0px 0px 40px;
+}
+.resume{
+    height: 60px;
+    font-size: 40px;
+    color: rgb(223, 209, 200);
+    margin: 60px 0px 0px 40px;
+}
+.resume a{
+    text-decoration: none;
+    color: rgb(223, 209, 200);
+    padding-left: 0px;
+    line-height: 10px;
+    font-size: 50px;
+}
+.resume a:hover{
+    color: rgb(226, 182, 153);
+}
+
+/*Tablet*/
+@media only screen and (min-width: 800px) and (max-width: 1280px){
+body{
+    font-family: ariana-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(226, 182, 153);
+    background-color: rgb(223, 209, 200);
+}
+.header_a{
+    height: 800px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-image: url("/img/SeniorPic.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+.logo_a{
+    height: 190px;
+    width: 80%;
+    margin-left: -20px;
+}
+.name_a{
+    height: 70px;
+    font-size: 50px;
+    text-align: center;
+    margin: 70px 0px 10px auto;
+}
+.about_a{
+    height: 90px;
+    font-size: 20px;
+    text-align: right;
+    margin: 110px 80px 0px auto;
+}
+.line_a{
+    height: 5px;
+    width: 82%;
+    margin-top: 160px;
+    background-color: rgb(223, 209, 200);
+    position: absolute;
+    margin-left: 15%;
+}
+.school{
+    height: 90px;
+    width: 100%;
+    font-size: 80px;
+    color: rgb(77, 77, 77);
+    margin: 120px auto 0px 30px;
+}
+.school_2{
+    height: 100px;
+    width: 100%;
+    font-size: 40px;
+    color: rgb(77, 77, 77);
+    margin: 20px auto 0px 30px;
+}
+.year{
+    height: 90px;
+    width: 100%;
+    font-size: 80px;
+    color: rgb(77, 77, 77);
+    margin: 20px auto 0px 30px;
+}
+.year_2{
+    height: 100px;
+    width: 100%;
+    font-size: 40px;
+    color: rgb(77, 77, 77);
+    margin: 20px auto 0px 30px;
+}
+.major{
+    height: 90px;
+    width: 100%;
+    font-size: 80px;
+    color: rgb(77, 77, 77);
+    margin: 20px auto 0px 30px;
+}
+.major_2{
+    height: 100px;
+    width: 100%;
+    font-size: 40px;
+    color: rgb(77, 77, 77);
+    margin: 20px auto 150px 30px;
+}
+.footer_a{
+    height: 600px;
+    width: 100%;
+    color: rgb(223, 209, 200);
+    background-color: rgb(77, 77, 77);
+    margin-top: 0px;
+}
+.contact{
+    font-size: 30px;
+    padding-top: 70px;
+    margin: 0px auto 0px 40px;
+}
+.email{
+    height: 60px;
+    font-size: 50px;
+    color: rgb(223, 209, 200);
+    margin: 60px 0px 0px 40px;
+}
+.insta{
+    height: 40px;
+    font-size: 30px;
+    color: rgb(223, 209, 200);
+    margin: 60px 0px 0px 40px;
+}
+.facebook{
+    height: 40px;
+    font-size: 30px;
+    color: rgb(223, 209, 200);
+    margin: 0px 0px 0px 40px;
+}
+.twitter{
+    height: 40px;
+    font-size: 30px;
+    color: rgb(223, 209, 200);
+    margin: 0px 0px 0px 40px;
+}
+.resume{
+    height: 60px;
+    font-size: 40px;
+    color: rgb(223, 209, 200);
+    margin: 60px 0px 0px 40px;
+}
+.resume a{
+    text-decoration: none;
+    color: rgb(223, 209, 200);
+    padding-left: 0px;
+    line-height: 10px;
+    font-size: 50px;
+}
+.resume a:hover{
+    color: rgb(226, 182, 153);
+}
+}
+
+/*Phone*/
+@media only screen and (max-width: 800px){
+body{
+    font-family: ariana-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(226, 182, 153);
+    background-color: rgb(223, 209, 200);
+}
+.header_a{
+    height: 800px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-image: url("/img/SeniorPic.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+.logo_a{
+    height: 130px;
+    width: 85%;
+    margin-left: -20px;
+}
+.name_a{
+    height: 90px;
+    font-size: 30px;
+    text-align: center;
+    margin: 40px 0px 10px auto;
+}
+.about_a{
+    height: 90px;
+    font-size: 15px;
+    text-align: right;
+    margin: 60px 20px 0px auto;
+}
+.line_a{
+    height: 4px;
+    width: 82%;
+    margin-top: 100px;
+    background-color: rgb(223, 209, 200);
+    position: absolute;
+    margin-left: 15%;
+}
+.school{
+    height: 90px;
+    width: 100%;
+    font-size: 70px;
+    color: rgb(77, 77, 77);
+    margin: 120px auto 0px 30px;
+}
+.school_2{
+    height: 100px;
+    width: 100%;
+    font-size: 40px;
+    color: rgb(77, 77, 77);
+    margin: 10px auto 0px 30px;
+}
+.year{
+    height: 90px;
+    width: 100%;
+    font-size: 70px;
+    color: rgb(77, 77, 77);
+    margin: 20px auto 0px 30px;
+}
+.year_2{
+    height: 100px;
+    width: 100%;
+    font-size: 40px;
+    color: rgb(77, 77, 77);
+    margin: 10px auto 0px 30px;
+}
+.major{
+    height: 90px;
+    width: 100%;
+    font-size: 70px;
+    color: rgb(77, 77, 77);
+    margin: 20px auto 0px 30px;
+}
+.major_2{
+    height: 100px;
+    width: 100%;
+    font-size: 40px;
+    color: rgb(77, 77, 77);
+    margin: 10px auto 150px 30px;
+}
+.footer_a{
+    height: 600px;
+    width: 100%;
+    color: rgb(223, 209, 200);
+    background-color: rgb(77, 77, 77);
+    margin-top: 0px;
+}
+.contact{
+    font-size: 25px;
+    padding-top: 70px;
+    margin: 0px auto 0px 40px;
+}
+.email{
+    height: 60px;
+    font-size: 40px;
+    color: rgb(223, 209, 200);
+    margin: 60px 0px 0px 40px;
+}
+.insta{
+    height: 40px;
+    font-size: 25px;
+    color: rgb(223, 209, 200);
+    margin: 60px 0px 0px 40px;
+}
+.facebook{
+    height: 40px;
+    font-size: 25px;
+    color: rgb(223, 209, 200);
+    margin: 0px 0px 0px 40px;
+}
+.twitter{
+    height: 40px;
+    font-size: 25px;
+    color: rgb(223, 209, 200);
+    margin: 0px 0px 0px 40px;
+}
+.resume{
+    height: 60px;
+    font-size: 40px;
+    color: rgb(223, 209, 200);
+    margin: 60px 0px 0px 40px;
+}
+.resume a{
+    text-decoration: none;
+    color: rgb(223, 209, 200);
+    padding-left: 0px;
+    line-height: 10px;
+    font-size: 40px;
+}
+.resume a:hover{
+    color: rgb(226, 182, 153);
+}
 }
