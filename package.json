@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "eleventy build",
-    "forestry:preview": "eleventy build",
+    "forestry:preview": "eleventy --watch",
     "watch": "eleventy --watch --serve --port=5500"
   },
   "keywords": [],
