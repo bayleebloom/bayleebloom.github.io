@@ -11,6 +11,7 @@ sections:
   match: "**/*"
   new_doc_ext: md
   templates:
+  - work-template
   - work
 - type: heading
   label: Sidebar Heading
