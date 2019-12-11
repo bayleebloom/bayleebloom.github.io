@@ -4,7 +4,6 @@ tags:
  - work
  - "2019"
  - "K-State"
- - sculpture
 title: THROWBACK
 type: K-State
 year: "2019"

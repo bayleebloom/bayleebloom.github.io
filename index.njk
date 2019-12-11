@@ -3,14 +3,42 @@ layout: layouts/base.njk
 ---
 
 <div class="work__title">
-    K-State
+    K-STATE
 </div>
 {% set postslist = collections["K-State"] %}
 {% include "partials/homelist.njk" %}
 
 
 <div class="work__title">
-    Sculpture
+    3D DESIGN
 </div>
-{% set postslist = collections.sculpture %}
+{% set postslist = collections.3ddesign %}
+{% include "partials/homelist.njk" %}
+
+
+<div class="work__title">
+    DRAWING
+</div>
+{% set postslist = collections.drawing %}
+{% include "partials/homelist.njk" %}
+
+
+<div class="work__title">
+    PHOTOGRAPHY
+</div>
+{% set postslist = collections.photography %}
+{% include "partials/homelist.njk" %}
+
+
+<div class="work__title">
+    INDEPENDENT WORK
+</div>
+{% set postslist = collections.independent %}
+{% include "partials/homelist.njk" %}
+
+
+<div class="work__title">
+    SORORITY
+</div>
+{% set postslist = collections.sorority %}
 {% include "partials/homelist.njk" %}

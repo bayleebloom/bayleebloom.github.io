@@ -1480,6 +1480,10 @@ body{
     position: absolute;
     margin-left: 340px;
 }
+.work__featured_image{
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
 .title{
     height: 90px;
     width: 100%;
@@ -1631,7 +1635,7 @@ body{
     margin: 50px auto 0px 30px;
 }
 .info{
-    height: 850px;
+    height: 1200px;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1645,10 +1649,10 @@ body{
 .text{
     font-size: 50px;
     color: rgb(77, 77, 77);
-    margin: 0px 40px 0px -150px;
+    margin: 0px 0px 0px -150px;
 }
 .pic_2{
-    height: 1200px;
+    height: 700px;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1755,38 +1759,38 @@ body{
     margin-left: 18%;
 }
 .title{
-    height: 90px;
+    height: 10px;
     width: 100%;
-    font-size: 100px;
+    font-size: 70px;
     color: rgb(77, 77, 77);
     margin: 30px auto 0px 30px;
 }
 .title_2{
     height: 180px;
     width: 100%;
-    font-size: 100px;
+    font-size: 70px;
     color: rgb(77, 77, 77);
     margin: 50px auto 0px 30px;
 }
 .info{
-    height: 850px;
+    height: 800px;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
 }
 .date{
-    font-size: 90px;
+    font-size: 60px;
     color: rgb(77, 77, 77);
-    margin: 0px auto 0px 40px;
+    margin: -20px auto 0px 30px;
 }
 .text{
-    font-size: 50px;
+    font-size: 30px;
     color: rgb(77, 77, 77);
-    margin: 0px 40px 0px -150px;
+    margin: 0px 20px 0px -100px;
 }
 .pic_2{
-    height: 1200px;
+    height: 600px;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1828,11 +1832,11 @@ body{
     height: 100px;
 }
 .big{
-    font-size: 80px;
+    font-size: 70px;
     width: 120%;
 }
 .little{
-    margin-top: 70px;
+    margin-top: 60px;
     width: 30%;
 }
 .big_2{

@@ -3,10 +3,10 @@ layout: layouts/post.njk
 tags:
  - work
  - "2018"
- - sculpture
+ - 3ddesign
 title: TRANSFORMATION
 title_2: CUBE
-type: Sculpture
+type: 3D Design
 year: "2018"
 featured_image: "/img/cube2.jpg"
 materials: Board and Paint
