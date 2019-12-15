@@ -4,15 +4,15 @@ tags:
 - independent
 - '2017'
 - work
-title: IGNITE THE NIGHT
+title: POWERLIFT
 type: design
 year: "2017"
-featured_image: "/img/Riverfest Name-1.jpg"
+featured_image: "/img/Powerlifting Shirt2-1.jpg"
 materials: computer
-description: 'This is a submission for my towns annual festival called Riverfest.
-  I have been going to Riverfest since I was a baby and I even volunteered for them.
-  So I decided to enter their competition for the theme of the annual event. This
-  is poster I created for the event. '
+description: 'A friend of mine asked me to design a t-shirt for the special olympics
+  powerlifting classic tournament held in Wamego, Kansas. This logo needed to consist
+  of an image of the powerlifting idea with some indication of where the event was
+  being held. '
 support_images: []
 support_images_2: []
 eleventyNavigation:
