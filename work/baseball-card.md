@@ -2,7 +2,7 @@
 layout: layouts/post.njk
 tags:
 - k-state
-- '"2019"'
+- '2019'
 - work
 title: BASEBALL CARD
 type: K-State
