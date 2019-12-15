@@ -5,7 +5,7 @@ tags:
 - '2019'
 - work
 title: BROKEN
-type: Ceramics
+type: 3D Design
 year: "2019"
 featured_image: "/img/IMG_6252.jpg"
 materials: ceramics
