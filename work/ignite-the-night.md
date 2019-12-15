@@ -5,7 +5,7 @@ tags:
 - '2017'
 - work
 title: IGNITE THE NIGHT
-type: design
+type: Design
 year: "2017"
 featured_image: "/img/Riverfest Name-1.jpg"
 materials: computer

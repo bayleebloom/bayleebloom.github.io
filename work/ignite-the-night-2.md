@@ -5,7 +5,7 @@ tags:
 - '2017'
 - work
 title: TROJAN
-type: design
+type: Design
 year: "2017"
 featured_image: "/img/IMG_8735-1.JPG"
 materials: computer
