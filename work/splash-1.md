@@ -4,10 +4,10 @@ tags:
 - photo
 - '2019'
 - work
-title: SPLASH
+title: TREE
 type: Photo
 year: "2019"
-featured_image: "/img/Screen Shot 2019-11-06 at 9.36.53 AM.png"
+featured_image: "/img/Screen Shot 2019-11-06 at 9.37.52 AM.png"
 materials: photo
 description: Shoot at least 30 images of the same thing several times over to get
   the motion section right. This one requires more time and effort and you will need
