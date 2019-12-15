@@ -1,21 +1,19 @@
 ---
 layout: layouts/post.njk
 tags:
+- '2018'
 - school
-- '2017'
 - work
-title: TROJAN
+title: SWIM
 type: design
-year: "2017"
-featured_image: "/img/IMG_8735-1.JPG"
+year: "2018"
+featured_image: "/img/swimming front-1.jpg"
 materials: computer
-description: My high school has an annual event called Trojan Nite. This is the t-shirt
-  I designed and printed for my class during our senior year. We could only use two
-  colors and had to go with the theme Hercules.
-support_images:
-- "/img/IMG_8730-1.JPG"
-support_images_2:
-- "/img/IMG_8731.jpg"
+description: During high school I was on the swim team. My senior year I was the team
+  captain so I was in charge of designing the shirts. This was the design and colors
+  that our entire team wore the 2018 season.
+support_images: []
+support_images_2: []
 eleventyNavigation:
   key: ''
 
