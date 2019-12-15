@@ -1,6 +1,7 @@
 ---
 layout: layouts/post.njk
 tags:
+- drawing
 - work
 - '2018'
 title: CHAIR
