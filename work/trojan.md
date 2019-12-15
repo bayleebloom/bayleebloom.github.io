@@ -5,7 +5,7 @@ tags:
 - school
 - work
 title: SWIM
-type: design
+type: Design
 year: "2018"
 featured_image: "/img/swimming front-1.jpg"
 materials: computer
