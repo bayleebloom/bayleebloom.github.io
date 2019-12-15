@@ -1,9 +1,9 @@
 ---
 layout: layouts/post.njk
 tags:
+- ceramics
 - work
 - '2019'
-- 3ddesign
 title: BUBBLES
 type: 3D Design
 year: "2019"
