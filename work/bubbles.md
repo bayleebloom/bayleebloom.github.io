@@ -2,7 +2,7 @@
 layout: layouts/post.njk
 tags:
 - work
-- '"2019"'
+- '2019'
 - 3ddesign
 title: BUBBLES
 type: 3D Design
