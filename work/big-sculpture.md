@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
 tags:
-- '"2018"'
+- '2018'
 - work
 - 3ddesign
 title: TRANSFORMATION
