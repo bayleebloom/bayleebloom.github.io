@@ -1,6 +1,7 @@
 ---
 layout: layouts/post.njk
 tags:
+- '2019'
 - work
 - photography
 title: COOL DOWN
