@@ -1,6 +1,7 @@
 ---
-layout: ''
+layout: layouts/post.njk
 tags:
+- independent
 - '2017'
 - work
 title: IGNITE THE NIGHT
