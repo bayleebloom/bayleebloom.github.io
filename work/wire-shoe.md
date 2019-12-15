@@ -1,9 +1,9 @@
 ---
 layout: layouts/post.njk
 tags:
-- "-3ddesign"
-- '- "2018"'
-- "- work"
+- work
+- '"2018"'
+- 3ddesign
 title: WIRE SHOE
 type: 3D Design
 year: "2018"
