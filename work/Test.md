@@ -2,8 +2,8 @@
 layout: layouts/post.njk
 tags:
  - work
- - "2019"
- - k-state
+ - '2019'
+ - kstate
 title: THROWBACK
 type: K-State
 year: "2019"
