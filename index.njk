@@ -30,9 +30,15 @@ layout: layouts/base.njk
 
 
 <div class="work__title">
-    PHOTOGRAPHY
+    PHOTOGRAPHY: 001
 </div>
 {% set postslist = collections.photography %}
+{% include "partials/homelist.njk" %}
+
+<div class="work__title">
+    PHOTOGRAPHY: 002
+</div>
+{% set postslist = collections.photo %}
 {% include "partials/homelist.njk" %}
 
 
