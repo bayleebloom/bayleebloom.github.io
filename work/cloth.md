@@ -5,7 +5,7 @@ tags:
 - '2018'
 - work
 title: CLOTH
-type: drawing
+type: Drawing
 year: "2018"
 featured_image: "/img/sheet.jpg"
 materials: conte on paper
