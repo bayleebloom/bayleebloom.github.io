@@ -1534,7 +1534,7 @@ body{
     background-size: cover;
 }
 .footer_s{
-    height: 600px;
+    height: 700px;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr;
