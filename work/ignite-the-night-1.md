@@ -5,7 +5,7 @@ tags:
 - '2017'
 - work
 title: POWERLIFT
-type: design
+type: Design
 year: "2017"
 featured_image: "/img/Powerlifting Shirt2-1.jpg"
 materials: computer
